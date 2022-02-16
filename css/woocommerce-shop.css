@@ -1,0 +1,121 @@
+.woocommerce .products ul,
+.woocommerce ul.products {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both
+}
+
+.woocommerce .products ul::after,
+.woocommerce .products ul::before,
+.woocommerce ul.products::after,
+.woocommerce ul.products::before {
+    content: " ";
+    display: table
+}
+
+.woocommerce .products ul::after,
+.woocommerce ul.products::after {
+    clear: both
+}
+
+.woocommerce .products ul li,
+.woocommerce ul.products li {
+    list-style: none outside
+}
+
+.woocommerce ul.products li.product .onsale {
+    top: 0;
+    right: 0;
+    left: auto;
+    margin: -.5em -.5em 0 0
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+    padding: .5em 0;
+    margin: 0;
+    font-size: 1em
+}
+
+.woocommerce ul.products li.product a {
+    text-decoration: none
+}
+
+.woocommerce ul.products li.product a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: none
+}
+
+.woocommerce ul.products li.product strong {
+    display: block
+}
+
+.woocommerce ul.products li.product .woocommerce-placeholder {
+    border: 1px solid #f2f2f2
+}
+
+.woocommerce ul.products li.product .star-rating {
+    font-size: .857em
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 1em
+}
+
+.woocommerce ul.products li.product .price {
+    color: #77a464;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: .857em
+}
+
+.woocommerce ul.products li.product .price del {
+    color: inherit;
+    opacity: .5;
+    display: inline-block
+}
+
+.woocommerce ul.products li.product .price ins {
+    background: 0 0;
+    font-weight: 700;
+    display: inline-block
+}
+
+.woocommerce ul.products li.product .price .from {
+    font-size: .67em;
+    margin: -2px 0 0 0;
+    text-transform: uppercase;
+    color: rgba(132, 132, 132, .5)
+}
+
+.woocommerce .woocommerce-result-count {
+    margin: 0 0 1em
+}
+
+.woocommerce .woocommerce-ordering {
+    margin: 0 0 1em
+}
+
+.woocommerce .woocommerce-ordering select {
+    vertical-align: top
+}
+
+.woocommerce nav.woocommerce-pagination {
+    text-align: center
+}
+
+.woocommerce nav.woocommerce-pagination ul {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0;
+    clear: both;
+    border: 1px solid #d3ced2;
+    border-right: 0;
+    margin: 1px
+}
